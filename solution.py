@@ -8,5 +8,5 @@ chat_id = 232587297 # Ваш chat ID, не меняйте название пе�
 def solution(x: np.array) -> float:
     # v = a*t
     t = 10
-    v = np.min(x) + 9
+    v = np.min(x) + 9 # почему min, и почему + 9?
     return v/t
